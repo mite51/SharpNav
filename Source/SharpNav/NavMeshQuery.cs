@@ -977,7 +977,7 @@ namespace SharpNav
 		/// <param name="filter">A filter for the navigation mesh.</param>
 		/// <param name="options">Options for how the path should be found.</param>
 		/// <returns>True if path initialized, false otherwise</returns>
-		public bool InitSlicedFindPath(ref NavPoint startPoint, ref NavPoint endPoint, NavQueryFilter filter, FindPathOptions options)
+		public bool InitSlicedFindPath(ref NavPoint startPoint, ref NavPoint endPoint, FindPathOptions options)
 		{
 			//validate input
 			if (startPoint.Polygon == NavPolyId.Null || endPoint.Polygon == NavPolyId.Null)
