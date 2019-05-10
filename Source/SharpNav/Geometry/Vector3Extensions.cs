@@ -199,7 +199,7 @@ namespace SharpNav.Geometry
 			float threshSq = threshold * threshold;
 			float distSq = (b - a).LengthSquared();
 
-			return distSq < threshold;
+			return distSq < threshSq;
 		}
 	}
 }
